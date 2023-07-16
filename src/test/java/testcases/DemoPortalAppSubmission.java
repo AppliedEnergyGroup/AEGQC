@@ -257,7 +257,7 @@ public class DemoPortalAppSubmission extends ExtentManager{
 		Thread.sleep(6000);
 		equip.verifyApplicationSubmittedheader();
 		reportInfo("Application submitted message is displayed");
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 			}
 		}
 	}
