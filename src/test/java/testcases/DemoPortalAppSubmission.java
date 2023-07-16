@@ -170,12 +170,12 @@ public class DemoPortalAppSubmission extends ExtentManager{
 		//clicking on continue button on project information page
 		projInfo.clickContinue();
 		reportInfo("Continue button is clicked from project information page");
-		//Consulation header text is displayed
+		//Consultation header text is displayed
 		Thread.sleep(5000);
 		equip.verifyConsulation_Header();
 		reportInfo("Consulation header text is displayed");
 		Thread.sleep(3000);
-		//clicking on back button from the consulation page
+		//clicking on back button from the consultation page
 		consult.clickBack();
 		reportInfo("Back button is clicked");
 		projInfo.selectElectricTech(electricTechAgain);
