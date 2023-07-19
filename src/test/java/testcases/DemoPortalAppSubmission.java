@@ -94,6 +94,7 @@ public class DemoPortalAppSubmission extends ExtentManager{
 		reportInfo("Email is entered");
 		log.info("Logs :: Email is entered");
 		lp.clickContinue();
+		Thread.sleep(2000);
 		reportInfo("Continue button clicked");
 		log.info("Logs :: Continue button clicked");
 		lp.enterPassword(password);
