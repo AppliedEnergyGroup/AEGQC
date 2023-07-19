@@ -67,17 +67,8 @@ public class DemoPortalAppSubmission extends ExtentManager{
 				String meterID=excl.getCellData(sheetName, i, "MeterID");
 				String accountNum=excl.getCellData(sheetName, i, "AccountNum");
 				String phone=excl.getCellData(sheetName, i, "Phone");
-				//String cell=excl.getCellData(sheetName, i, "Cell");
 				String fax=excl.getCellData(sheetName, i, "Fax");
 				String taxID=excl.getCellData(sheetName, i, "TaxID");
-				//String selectContractor=excl.getCellData(sheetName, i, "SelectContractor");
-				//String cnPremiseID=excl.getCellData(sheetName, i, "ContractorPremiseID");
-				//String cnMeterID=excl.getCellData(sheetName, i, "ContractorMeterID");
-				//String cnAccountNum=excl.getCellData(sheetName, i, "ContractorActNum");
-				//String cnPhone=excl.getCellData(sheetName, i, "ContractorPhone");
-				//String cnCell=excl.getCellData(sheetName, i, "ContractorCell");
-				//String cnFax=excl.getCellData(sheetName, i, "ContractorFax");
-				//String cnTaxID=excl.getCellData(sheetName, i, "ContractorTaxID");
 				String electricTech=excl.getCellData(sheetName, i, "ElectricTech");
 				String exFleet=excl.getCellData(sheetName, i, "ExpansionFleet");
 				String techDiesel=excl.getCellData(sheetName, i, "TechDiesel");
